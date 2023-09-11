@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<!--Cabeçalho com estilo do Bootstrap.-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pets Unidos! Serviços e Produtos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body,
+        html {
+            height: 100%;
+            margin: 0%;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bg"> <!--Eu quis colocar uma imagem de fundo. Ela esta salva no mesmo arquivo para evitar vir um link
+        externo, como o professor avisou.-->
+        <header class="bg-warning header">
+            <section>
+                <span class="span1">Pets Unidos</span>
+                <span class="span2">Serviços e produtos para seu Pet</span>
+                <section class="linksHome">
+                    <button type="button" class="btn btn-success">HOME</button>
+                    <button type="button" class="btn btn-success">Registre-se</button>
+                    <button type="button" class="btn btn-success">Contato</button>
+                </section>
+            </section>
+        </header>
+        <h1></h1>
+        <div class="container">
+            <div class="topnav"> <!--Barra de navegação com os principais links. Segui o plano indicado na Fase 1.-->
+                <a href="">Home</a>
+                <a href="">Conta Pet</a>
+                <a href="">Serviços</a>
+                <a href="">Produtos</a>
+                <a href="">Agendamentos</a>
+                <a href="">Carrinho de compras</a>
+                <input type="text" placeholder="Search..">
+            </div>
+            <section class="produtos"> <!-- Não teria termpo de criar os produtos e mais páginas para cada um com
+                detalhes, então criei a seção que teoricamente abriria para os produtos disponiveis.-->
+                <div class="card1" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Produtos</h5>
+                        <h6 class="card-subtitle mb-2 text-body-secondary">Sempre os melhores produtos!</h6>
+                        <p class="card-text">Produtos para o cuidados dos nossos melhores amigos. Todos aprovados pelos
+                            nossos veterinários.</p>
+                        <a href="#" class="card-link">Clique aqui</a>
+                    </div>
+                </div>
+                <div class="card2" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Serviços</h5> <!--Mesma questão dos produtos citado acima.-->
+                        <h6 class="card-subtitle mb-2 text-body-secondary">Banho e Tosa</h6>
+                        <p class="card-text">Banho e Tosa oferecido para todas as raças! Precisa de um serviço especial?
+                            Agende com um dos nossos especialistas.</p>
+                        <a href="#" class="card-link">Clique aqui</a>
+                        <a href="#" class="card-link">Agenda</a>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <h2></h2>
+                <div class="card3" style="width: 13rem;">
+                    <img src="telebusca.jpg" class="card-img-top" alt="Tele-Busca">
+                    <div class="card-body">
+                        <h5 class="card-title">Tele-Busca</h5>
+                        <p class="card-text">Buscamos o seu pet em casa! Proporcionamos seurança e conforto para os amigos de 4 patas.</p>
+                        <a href="#" class="btn btn-success">Quero Tele-Busca!</a>
+                    </div>
+            </section>
+        </div>
+    </div>
+
+    <footer class="bg-light text-center text-lg-start">
+        <!--Os estilos de footer foi feito com base em exemplos do Bootstrap.-->
+        <!-- Grid container -->
+        <div class="container p-4">
+            <!--Grid row-->
+            <div class="row">
+                <!--Grid column-->
+                <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Pets Unidos</h5>
+
+                    <p>
+                        Obrigada por visitar Pets Unidos! Estamos sempre atualizando nossos produtos para melhor atender
+                        nossos melhores amigos e seus tutores!
+                        Entre em contato conosco!
+                        <a href="mailto:gi@example.com">gi@example.com</a>
+                    </p>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Sobre nós</h5>
+                    <p>
+                        Pets Unidos iniciou em 2023, quando a tutora Giovanna Oliveira trouxe ao mercado de Pet
+                        shop um serviço especiaizado de cuidado com os animais sênios e doentes. Com profissionais
+                        treinados, proporcionamos segurança e
+                        carinho para todos animais com necessidades especiais. Hoje temos orgulho que apresentar uma
+                        gama maior de serviços que incluem a Tele-busca! Não deixe de nos contatar para suas
+                        necessidades!
+                    </p>
+                </div>
+                <!--Grid column-->
+
+            </div>
+            <!--Grid row-->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2020 Copyright:
+            <a class="text-dark" href="">Pets Unidos</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+</body>
+
+</html>
